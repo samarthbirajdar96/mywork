@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color:#2b412c;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.profile{
+    border: 2px solid #ddd;
+    padding: 20xp;
+    margin: 20px;
+    text-align: center;
+}
+
+.hobbies li {
+    font-size: 18px;
+    color: #333;
+    list-style: none;
+}
+
+.hobbies li:nth-child(2) {
+    font-size: 20px;
+    color: #007BFF;
+}
+
+.hobbies li:nth-child(3) {
+    font-size: 22px;
+    color: #FF5722;
+}
+
+.hidden {
+    display: none;
+}
+
+footer {
+    font-size: 14px;
+    text-align: center;
+    padding: 20px;
+}
+
+#more-info-btn{
+    align-items: center;
+    padding: 5px;
+    border-radius: 20px;
+    margin-left: 35px;
+    color: rgb(19, 18, 18);
+}
+
+#more-info-btn:hover {
+    background-color: #007BFF;
+}
