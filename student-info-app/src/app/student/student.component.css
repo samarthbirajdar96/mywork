@@ -1,0 +1,38 @@
+.student-container {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    
+  }
+  
+  input {
+    padding: 8px;
+    margin: 10px 0;
+    border-color: aqua;
+  }
+
+  
+  
+  button {
+    padding: 8px;
+    margin-left: 10px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+  }
+
+  button:hover{
+    color: aqua;
+    transform: scale(1.1);
+    
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin: 10px 0;
+  }
+  

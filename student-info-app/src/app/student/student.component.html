@@ -1,0 +1,22 @@
+
+<div class="student-container">
+    <h2>Student Information</h2>
+  
+   
+    <input [(ngModel)]="currentStudent" placeholder="Enter student name" />
+    <button (click)="addStudent()">Add Student</button>
+  
+    
+    <ul *ngIf="students.length > 0; else noStudents">
+      <li *ngFor="let student of students">
+        {{ student.name }}
+        <button (click)="removeStudent(student.id)">Remove</button>
+      </li>
+    </ul>
+  
+    
+    <ng-template #noStudents>
+      <p>No students available.</p>
+    </ng-template>
+  </div>
+  
