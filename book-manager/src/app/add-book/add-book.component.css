@@ -1,0 +1,34 @@
+/* Add Book Component Styles */
+form {
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  textarea {
+    height: 100px;
+    resize: vertical;
+  }
+  
+  button {
+    background-color: #28a745; /* Green color for submit button */
+  }
+  
+  button:hover {
+    background-color: #218838;
+  }
+  

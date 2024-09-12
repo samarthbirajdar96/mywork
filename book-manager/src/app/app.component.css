@@ -1,0 +1,16 @@
+/* Global styles for the application */
+table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  button {
+    margin-right: 10px;
+  }
+  
