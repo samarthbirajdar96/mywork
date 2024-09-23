@@ -2,6 +2,9 @@ package com.example.Employee.Management.System.controller;
 
 import java.util.List;
 
+
+
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -31,7 +34,7 @@ EmployeeService employeeservice;
 	   return employeeservice.getallemployee();
    }
   
-   @PutMapping("Employee/name/{name}/id/{id}")
+   @PutMapping("employee/name/{name}/id/{id}")
    public String updatenamebyid(@PathVariable Long id,@PathVariable String name) {
    	return employeeservice.updatenamebyid(id,name);
 }
@@ -42,5 +45,82 @@ EmployeeService employeeservice;
    }
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//@PostMapping("/employee")
+//public ResponseEntity<String> addEmployee(@RequestBody Employee employee) {
+//    String result = employeeservice.addemployee(employee);
+//    return ResponseEntity.status(HttpStatus.CREATED).body(result);
+//}
+//
+//@GetMapping("/employee")
+//public ResponseEntity<List<Employee>> getAllEmployee() {
+//    List<Employee> employees = employeeservice.getallemployee();
+//    if (employees.isEmpty()) {
+//        return ResponseEntity.status(HttpStatus.NO_CONTENT).build(); 
+//    }
+//    return ResponseEntity.ok(employees); 
+//}
+//
+//@PutMapping("/employee/name/{name}/id/{id}")
+//public ResponseEntity<String> updateNameById(@PathVariable Long id, @PathVariable String name) {
+//    String result = employeeservice.updatenamebyid(id, name);
+//    if ("employee updated".equals(result)) {
+//        return ResponseEntity.ok(result); 
+//    } else {
+//        return ResponseEntity.status(HttpStatus.NOT_FOUND).body(result); 
+//    }
+//}
+//
+//@DeleteMapping("/employee/id/{id}")
+//public ResponseEntity<String> removeById(@PathVariable Long id) {
+//    String result = employeeservice.removebyId(id);
+//    if ("employee deleted".equals(result)) {
+//        return ResponseEntity.ok(result); 
+//    } else {
+//        return ResponseEntity.status(HttpStatus.NOT_FOUND).body(result); 
+//    }
+//}
+//}
 
 

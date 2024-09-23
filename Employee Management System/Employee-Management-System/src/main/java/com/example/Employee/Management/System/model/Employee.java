@@ -24,7 +24,7 @@ public class Employee {
 	
 	private String empPosition;
 	
-	private String empDeparment;
+	private String empDepartment;
 	
 	private Long empSalary;
 	
